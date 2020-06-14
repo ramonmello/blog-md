@@ -1,0 +1,13 @@
+{
+  "name": "blog-md",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "gatsby": "^2.23.3",
+    "gatsby-source-filesystem": "^2.3.11",
+    "gatsby-transformer-remark": "^2.8.15",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
