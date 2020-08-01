@@ -1,1 +1,1 @@
-{"componentChunkName":"component---src-templates-post-js","path":"/blog/other-page","result":{"pageContext":{"id":"/blog/other-page"}}}
+{"componentChunkName":"component---src-templates-post-js","path":"/blog/other-page","result":{"data":{"markdownRemark":{"frontmatter":{"title":"outra página","description":"Outra página de teste"},"html":""}},"pageContext":{"id":"/blog/other-page"}}}

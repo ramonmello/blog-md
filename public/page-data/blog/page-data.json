@@ -1,1 +1,1 @@
-{"componentChunkName":"component---src-pages-blog-js","path":"/blog/","result":{"pageContext":{}}}
+{"componentChunkName":"component---src-templates-blog-js","path":"/blog","result":{"data":{"posts":{"edges":[{"node":{"frontmatter":{"description":"Outra página de teste","path":"/blog/other-page","title":"outra página"}}},{"node":{"frontmatter":{"description":"Bem vindo a minha página","path":"/blog/minha-pagina","title":"Minha página"}}}]}},"pageContext":{"limit":2,"skip":0,"numPages":5,"currentPage":0}}}

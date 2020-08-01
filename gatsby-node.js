@@ -17,10 +17,10 @@ exports.createPages = async({ graphql, actions }) => {
         }
       }
     }
-  `)
+    `)
+  const template = path.resolve("src/templates/post.js")
   posts.data.posts.edges.forEach(post => {
-    console.log(post)
-    const template = path.resolve('src/templates/post.js')
+    // console.log(post)
     createPage({
       path: post.node.frontmatter.path,
       component: template,
@@ -28,5 +28,23 @@ exports.createPages = async({ graphql, actions }) => {
         id: post.node.frontmatter.path
       }
     })
+  })
+
+  const templateBlog = path.resolve("src/templates/blog.js")
+  const pageSize = 2
+  const totalPosts = posts.data.posts.edges.length
+  const numPages = Math.ceil(totalPosts / pageSize)
+  Array.from({ length: numPages }).forEach((_, i) => {
+    createPage({
+      path: '/blog' + (i === 0 ? '' : '/'+i),
+      component: templateBlog,
+      context: {
+        limit: pageSize,
+        skip: i * pageSize,
+        numPages,
+        currentPage: i
+      }
+    })
+    // console.log((i === 0 ? '' : '/'+i))
   })
 }

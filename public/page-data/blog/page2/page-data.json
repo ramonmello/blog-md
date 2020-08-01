@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-post-js","path":"/blog/page2","result":{"data":{"markdownRemark":{"frontmatter":{"title":"page2","description":"Bem vindo a minha página"},"html":"<h1>Minha página</h1>\n<h2>primeiro titulo</h2>\n<p>Meu primeiro post</p>"}},"pageContext":{"id":"/blog/page2"}}}

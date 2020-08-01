@@ -9,3 +9,10 @@ description: "Bem vindo a minha página"
 ## primeiro titulo
 
 Meu primeiro post
+
+> Esse trecho de texto é uma citação
+> 
+> <cite>- Eagle Tecnologia</cite>
+>> Essa é a segunda Citação
+>> 
+>> <cite>- Eagle Tecnologia 2</cite>
